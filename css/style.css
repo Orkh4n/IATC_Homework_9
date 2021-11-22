@@ -1,0 +1,81 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    font-family: poppins;
+}
+
+.ox_button{ 
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 0 5px;
+    background: #fff;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+    align-items: center;
+}
+.ox_button:hover{
+    width: 200px;
+}
+.ox_button:hover .my_icon{
+    color: #fff;
+}
+.my_icon{
+    width: 60px;
+    height: 60px;
+    /* display: inline-block; */
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+    font-size: 35px;
+    float: left;
+}
+
+.ox_button:nth-child(1):hover .my_icon{
+    background: #1877F2;
+    
+}
+.ox_button:nth-child(2):hover .my_icon{
+    background: linear-gradient(0deg, rgba(195,139,34,1) 0%, rgba(199,63,160,1) 98%);
+}
+.ox_button:nth-child(3):hover .my_icon{
+    background: #FF0000;
+}
+.ox_button:nth-child(4):hover .my_icon{
+    background: #1D9BF0;
+}
+.ox_button:nth-child(5):hover .my_icon{
+    background: #212121;
+}
+.ox_button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ;
+}
+.ox_button:nth-child(1) span{
+    color: #1877F2 ;
+}
+.ox_button:nth-child(2) span{
+    color: #C73FA0; 
+}
+.ox_button:nth-child(3) span{
+    color:#212121 ;
+}
+.ox_button:nth-child(4) span{
+    color: #1D9BF0 ;
+}
+
